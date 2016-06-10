@@ -1,3 +1,5 @@
+#Understands player's health
+
 class Player
   attr_reader :name, :hitpoints
 
