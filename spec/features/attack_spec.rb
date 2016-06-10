@@ -9,7 +9,7 @@ require_relative "../../app"
     scenario "Player 1 attacks player 2 and attack is confirmed" do
       enter_random_name_for_both_players_and_play
       click_button('Attack')
-      expect(page).to have_content("#{@current_name} has attacked #{@current_name}!!")
+      expect(page).to have_content("#{@name1} has attacked #{@name2}!!")
     end
 
   # As Player 1,
